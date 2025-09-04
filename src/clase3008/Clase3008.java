@@ -42,8 +42,8 @@ public class Clase3008 {
         acumulador=acumulador+sueldo[numero-1];
         contador++;
         System.out.println("La nota en la posicion "+numero+" es "+sueldo [numero-1]);
-          System.out.println("Desea seguir viendo notas?");
-          pregunta=lector.next().toUpperCase();
+        System.out.println("Desea seguir viendo notas?");
+        pregunta=lector.next().toUpperCase();
         }while (pregunta.equals("SI"));
         System.out.println("La suma es "+acumulador);
         System.out.println("Se mostraron "+contador+" notas");
