@@ -17,14 +17,14 @@ public class Clase3008 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //       Crear un vector
+        //    +++Crear un vector+++
         Scanner lector=new Scanner (System.in);
         int i;
         int [] sueldo = new int [10];
         int numero,acumulador=0,contador=0;
         String pregunta;
         double promedio;
-        //Ingrese diez calificaciones
+        //+++Ingrese diez calificaciones+++
         System.out.println("Ingrese calificaciones");
         for (i=0;i<10;i++){
             sueldo[i]=lector.nextInt();

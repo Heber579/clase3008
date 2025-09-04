@@ -25,7 +25,7 @@ public class ejercicio1 {
         for (i=0;i<5;i++){
            numero[i]=lector.nextInt();         
         }
-        System.out.println("Los numeros ingresados son:");
+        System.out.println("Los numeros ingresados son los siguientes:");
         for (i=0;i<5;i++){
         System.out.println(numero[i]);  
         }
